@@ -1,0 +1,255 @@
+body {
+	font-family: "Roboto", Arial, Tahoma, sans-serif;		
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 10px;
+}
+@media (max-width: 768px) {
+	h1 {
+   		font-size: 28px;
+   		margin: 5px;
+   	}
+   	h3 {
+   		font-size: 20px;
+   	}
+   	h4 {
+   		font-size: 16px;
+   	}
+   	p {
+		font-size: 16px !important;
+	}
+	p.registration-info {
+		font-size: 14px !important;
+		color: black !important;
+	}
+   	.program-block {
+   		margin-top: 5px;	
+   		margin-bottom: 5px;
+   	}
+   	.prizes {
+		margin-bottom: 5px;
+	}
+	/* .program-block img {
+		width: 22px;
+		margin: 0 5px;
+	} */
+	.registration-link {
+		font-size: 13px;
+	}
+	.button-container {
+		display: block;
+	}
+	.button-container p {
+		max-width: 300px; 
+		width: 90%;		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  	h1 {
+   		font-size: 28px;
+   		margin: 5px;
+   	}
+   	h3 {
+   		font-size: 20px;
+   	}
+   	h4 {
+   		font-size: 18px;
+   	}
+  	p {
+		font-size: 16px !important;
+	}
+	
+	p.registration-info {
+		font-size: 14px !important;
+		color: black !important;
+	}
+	.program-block {
+		margin-top: 20px;	
+   		margin-bottom: 10px;
+   	}
+	
+   	.prizes {
+		margin-bottom: 10px;
+	}
+	.button-container {
+		display: flex;
+	}
+	.button-container p {
+		max-width: 300px; 
+		width: 45%;
+	}
+}
+@media (min-width: 992px) {	
+	p {
+		font-size: 20px !important;
+	}
+	p.lead {
+		font-size: 24px !important;
+	}
+	p.registration-info {
+		font-size: 16px !important;
+		color: black !important;
+	}
+	.program-block {
+		margin-top: 20px;	
+   		margin-bottom: 10px;
+   	}   	
+   	.prizes {
+		margin-bottom: 20px;
+	}
+	/* .program-block img {
+		width: 32px;
+		margin: 0 5px;
+	} */
+	.regulation h3 {
+		margin-bottom: 20px !important;
+	}
+	h3 {
+		margin: 20px 0 !important;
+		font-weight: bold;
+	}
+	h4 {
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+	}
+	#sportclub2021-image {
+		height: 300px;
+	}
+	.button-container {
+		display: flex;		
+	}   
+	.button-container p {
+		max-width: 300px; 
+		width: 45%;
+	}	
+}
+@media (min-width: 992px) and (max-width: 1440px) {
+	.activity-block a {
+		font-size: 14px !important;
+	}
+}
+
+.header-banner {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.header-banner img {
+	min-width: 100%; 
+  	height: auto;
+}
+.img-scalable {
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.logo {
+	width: 100vw;  	
+}
+.welcome-background {	
+	margin-bottom: 20px;
+}
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+.program-block {		
+	background-color: #E3ECF2;	
+	border-right: 20px solid white;
+	border-left: 20px solid white;
+}
+.program-block h3 {
+	text-align: center;
+	margin: 10px 0;
+}
+.program-block p {	
+	font-size: 18px;
+	color: #2073BD;
+}
+.program-block li {
+	font-size: 16px;
+}
+.program-block.regulation p {
+	text-align: center;
+}
+.yandex-map {	
+	margin-bottom: 10px;
+}
+
+.route-map a:hover {
+	color: gray;
+}
+
+.block-wrapper {
+	margin-bottom: 20px;
+}
+.block-wrapper h3 {
+	margin: 30px;
+}
+.block-team {
+	padding-top: 10px;
+	background-color: #FF9400;
+	margin: 20px;
+	padding-bottom: 10px;
+}
+
+.registration-link {
+	margin: 10px auto 20px;
+	text-align: center;
+	border: 5px solid #022E44;
+	font-size: 150%;
+	max-width: 300px;
+	width: 50%;	
+	background-color: #4473BD;
+}
+.registration-link a:link, .registration-link a:visited {	
+	color: white;
+	font-weight: bold;		
+	display: block;	
+	line-height: 50px;
+}
+.registration-link a:hover {	
+	text-decoration: none;
+	background-color: #739FE3;
+}
+.border-block {
+	border: 5px solid #E3ECF2;
+}
+.border-block h4 {
+	margin: 5px;
+}
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #2A333B;
+	color: white;
+}
+.footer img {
+	width: 32px;
+	margin-right: 5px;
+}
+.footer p {
+	margin-bottom: 5px;	
+}
+.footer a:link, .footer a:visited {
+	color: white;	
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.name {
+	color: yellow;
+}
+.organizer {
+	margin-left: 10%;
+}
+.organizer-info {
+	margin-left: 10px;
+}
+.assistance {
+	margin-left: 10%;
+}
+.assistance h4 {
+	text-align: left;
+}
