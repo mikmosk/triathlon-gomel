@@ -150,6 +150,10 @@ h1, h2, h3, h4, h5 {
 .welcome-background {	
 	margin-bottom: 20px;
 }
+.welcome-background h3 {
+	font-weight: 500;
+	color: #ce2e1d;
+}
 .row-flex {
     display: flex;
     flex-flow: row wrap;
@@ -169,9 +173,6 @@ h1, h2, h3, h4, h5 {
 }
 .program-block li {
 	font-size: 16px;
-}
-.program-block.regulation p {
-	text-align: center;
 }
 .yandex-map {	
 	margin-bottom: 10px;
@@ -244,13 +245,11 @@ h1, h2, h3, h4, h5 {
 .organizer {
 	margin-left: 10%;
 }
-.organizer-info {
-	margin-left: 10px;
-}
-.assistance {
-	margin-left: 10%;
+.organizer h3 {
+	margin-left: 0;
 }
 .assistance h4 {
+	margin-left: 0;
 	text-align: left;
 }
 .separator {
